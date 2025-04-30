@@ -163,4 +163,4 @@ def delete_user(id:int = Form(...),db:Session = Depends(get_db)):
            
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000, log_level="debug")
+    uvicorn.run(app, host="0.0.0.0", port=8080, log_level="debug")
